@@ -71,6 +71,9 @@ mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
 ```
 
 ## 扩展资料
+
+[MyBatis Generator](http://mybatis.org/generator/running/runningWithMaven.html)
+[Flyway](https://flywaydb.org/getstarted/firststeps/maven)  
 [Spring 文档](https://spring.io/guides)    
 [Spring Web](https://spring.io/guides/gs/serving-web-content/)   
 [es](https://elasticsearch.cn/explore)    
@@ -87,7 +90,6 @@ mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
 [Count(*) VS Count(1)](https://mp.weixin.qq.com/s/Rwpke4BHu7Fz7KOpE2d3Lw)  
 [Git](https://git-scm.com/download)   
 [Visual Paradigm](https://www.visual-paradigm.com)    
-[Flyway](https://flywaydb.org/getstarted/firststeps/maven)  
 [Lombok](https://www.projectlombok.org)    
 [ctotree](https://www.octotree.io/)   
 [Table of content sidebar](https://chrome.google.com/webstore/detail/table-of-contents-sidebar/ohohkfheangmbedkgechjkmbepeikkej)    
@@ -95,10 +97,22 @@ mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
 [Live Reload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei/related)  
 [Postman](https://chrome.google.com/webstore/detail/coohjcphdfgbiolnekdpbcijmhambjff)
 
+
+
 ## 更新日志
+
 - 2019-7-30 修复 session 过期时间很短问题   
 - 2019-8-2 修复因为*和+号产生的搜索异常问题  
 - 2019-8-18 添加首页按照最新、最热、零回复排序  
 - 2019-8-18 修复搜索输入 ? 号出现异常问题
 - 2019-8-22 修复图片大小限制和提问内容为空问题
 - 2019-9-1 添加动态导航栏
+
+
+
+## 补充资料
+
+如何设计第三方账号登陆 ？表如何设计
+
+ https://zhuanlan.zhihu.com/p/145828623
+
